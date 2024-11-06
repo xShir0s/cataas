@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="cataas.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+
+            <HorizontalStackLayout>
+            <Image
+                Source=" "
+                x:Name="cats"
+                WidthRequest="300"
+                HeightRequest="300"
+                />
+            
+            <Image
+                Source=" "
+                x:Name="catsGif"
+                WidthRequest="300"
+                HeightRequest="300"
+                
+                />
+                <Image
+                Source=" "
+                x:Name="catsMono"
+                WidthRequest="300"
+                HeightRequest="300"
+                
+                />
+                <Image
+                Source=" "
+                x:Name="catsNegate"
+                WidthRequest="300"
+                HeightRequest="300"
+                
+                />
+                <Image
+                Source=" "
+                x:Name="catsText"
+                WidthRequest="300"
+                HeightRequest="300"
+                
+                />
+
+            </HorizontalStackLayout>
+            <Entry
+                x:Name="CatText"
+            
+                Placeholder="napisz coś"
+                
+                />
+            <Button
+                x:Name="Kitty"
+                Text="Click me" 
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="Button_Clicked"
+                HorizontalOptions="Fill"
+                WidthRequest="100"
+                />
+            
+        </VerticalStackLayout>
+        
+        
+    </ScrollView>
+
+</ContentPage>
