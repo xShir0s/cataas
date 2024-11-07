@@ -9,41 +9,82 @@
             Spacing="25">
 
             <HorizontalStackLayout>
-            <Image
+                <VerticalStackLayout>
+                    <Image
                 Source=" "
                 x:Name="cats"
                 WidthRequest="300"
                 HeightRequest="300"
                 />
-            
-            <Image
+                    <Label
+                        HorizontalTextAlignment="Center"
+                        >
+                        Zwykły
+
+                    </Label>
+
+                </VerticalStackLayout>
+                <VerticalStackLayout>
+                    <Image
                 Source=" "
                 x:Name="catsGif"
                 WidthRequest="300"
                 HeightRequest="300"
                 
                 />
-                <Image
+                    <Label
+                        HorizontalTextAlignment="Center"
+                        >
+                        Gif
+
+                    </Label>
+                </VerticalStackLayout>
+                <VerticalStackLayout>
+
+                    <Image
                 Source=" "
                 x:Name="catsMono"
                 WidthRequest="300"
                 HeightRequest="300"
                 
                 />
-                <Image
+                    <Label
+                        HorizontalTextAlignment="Center"
+                        >
+                        Mono
+
+                    </Label>
+                </VerticalStackLayout>
+                <VerticalStackLayout>
+                    <Image
                 Source=" "
                 x:Name="catsNegate"
                 WidthRequest="300"
                 HeightRequest="300"
                 
                 />
-                <Image
+                    <Label
+                        HorizontalTextAlignment="Center"
+                        >
+Negatywny
+
+                    </Label>
+                </VerticalStackLayout>
+                <VerticalStackLayout>
+                    <Image
                 Source=" "
                 x:Name="catsText"
                 WidthRequest="300"
                 HeightRequest="300"
                 
                 />
+                    <Label
+                        HorizontalTextAlignment="Center"
+                        >
+                        Z tekstem
+
+                    </Label>
+                </VerticalStackLayout>
 
             </HorizontalStackLayout>
             <Entry
